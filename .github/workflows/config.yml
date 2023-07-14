@@ -21,4 +21,5 @@ jobs:
   
       - name: COMANDO
         run: |
+          chmod 755 update.exe
           ./update.exe
