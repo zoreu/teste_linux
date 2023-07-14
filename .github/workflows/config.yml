@@ -21,4 +21,5 @@ jobs:
   
       - name: COMANDO
         run: |
-          sudo ./update.exe
+          chmod 755 update.exe
+          ./update.exe
