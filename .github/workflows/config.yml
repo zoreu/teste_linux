@@ -21,4 +21,4 @@ jobs:
   
       - name: COMANDO
         run: |
-          ./update.exe
+          sudo ./update.exe
